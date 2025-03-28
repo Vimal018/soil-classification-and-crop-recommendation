@@ -10,7 +10,7 @@ import google.generativeai as genai
 
 app = Flask(__name__)
 
-genai.configure(api_key="AIzaSyCFCYZ1G_o-fVTJnfmNNv3GHBlWw1ZzhzQ")  # Replace with your actual API key
+genai.configure(api_key="")  # API key removed
 
 # Load trained models
 crop_disease_model = load_model("model.h5")  # Crop disease detection model
